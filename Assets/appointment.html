@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Book an Appointment | Amadi's Care General Hospital</title>
+<meta name="description" content="Schedule your visit with Amadi's Care General Hospital's experienced doctors. Easy booking, short wait times, trusted doctors and quality care.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="40" height="40">
+          <circle cx="24" cy="24" r="24" fill="var(--blue)"/>
+          <path d="M24 34s-9.5-6.1-9.5-13A6.5 6.5 0 0 1 24 16a6.5 6.5 0 0 1 9.5 5c0 6.9-9.5 13-9.5 13z" fill="#fff"/>
+          <path d="M20.5 22h2.2l1-2.4 1.8 4.8 1-2.4h1.9" stroke="var(--blue)" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="logo-text">
+        <span class="logo-title">Amadi&rsquo;s Care</span>
+        <span class="logo-subtitle">General Hospital</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Our Services</a>
+      <a href="departments.html">Departments</a>
+      <a href="#contact">Contact</a>
+      <a href="appointment.html" class="active">Appointment</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a href="appointment.html" class="btn btn-primary btn-pill">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Book Appointment
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <div>
+      <p class="eyebrow">BOOK AN APPOINTMENT</p>
+      <h1>Your Health Matters<br><span class="accent">Book an Appointment</span></h1>
+      <p class="page-hero-text">Schedule your visit with our experienced doctors and get the quality care you deserve. It&rsquo;s quick, easy and convenient.</p>
+      <div class="quick-facts">
+        <div class="quick-fact"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 10h8M8 14h5"/></svg></span>Easy<span class="sub">Booking</span></div>
+        <div class="quick-fact"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>Short<span class="sub">Wait Times</span></div>
+        <div class="quick-fact"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M2.6 19.5c0-3.4 2.9-5.7 6.4-5.7s6.4 2.3 6.4 5.7"/><circle cx="17.3" cy="8.6" r="2.5"/></svg></span>Trusted<span class="sub">Doctors</span></div>
+        <div class="quick-fact"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg></span>Quality<span class="sub">Care</span></div>
+      </div>
+      <div class="page-hero-buttons">
+        <a href="#booking-form" class="btn btn-primary btn-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book an Appointment
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="page-hero-media">
+      <div class="page-hero-frame" style="aspect-ratio:16/8;">
+        <img src="assets/images/appointment-hero.jpg" alt="Amadi's Care doctor consulting with a patient">
+      </div>
+      <p class="script-tag script-tag--floating">Healthy Today<br>Brighter Tomorrow</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DEPARTMENT PICKER + FORM ===== -->
+<section class="section-tight" id="booking-form">
+  <div class="container">
+    <div class="appointment-layout">
+
+      <div>
+        <div class="section-heading align-left mt-0">
+          <p class="eyebrow">CHOOSE A DEPARTMENT</p>
+          <h2>Find the Right Care for Your Needs</h2>
+          <p class="section-sub">Select a department below to view available doctors and book an appointment.</p>
+        </div>
+
+        <div class="dept-picker-grid">
+          <div class="dept-pick-card" data-value="General Medicine">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a4 4 0 0 0 8 0V3"/><path d="M10 15v2a4 4 0 0 0 8 0v-1a5 5 0 0 0-3-4.6"/><circle cx="20" cy="9" r="2"/></svg></div>
+            <h3>General Medicine</h3>
+            <p>General health checkups, fever, infections and more.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+          <div class="dept-pick-card" data-value="Surgery">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8 16 16 8"/></svg></div>
+            <h3>Surgery</h3>
+            <p>Advanced surgical care and procedures.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+          <div class="dept-pick-card" data-value="Pediatrics">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="3"/><path d="M8 16c0-1.5 1.5-2.5 4-2.5s4 1 4 2.5"/></svg></div>
+            <h3>Pediatrics</h3>
+            <p>Specialized care for children and teenagers.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+          <div class="dept-pick-card" data-value="Gynecology &amp; Obstetrics">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21c-3-2-5-4.5-5-8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 3.5-2 6-5 8"/></svg></div>
+            <h3>Gynecology &amp; Obstetrics</h3>
+            <p>Care for women&rsquo;s health and pregnancy.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+          <div class="dept-pick-card" data-value="Cardiology">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/><path d="M8 12h2l1.2-2.6 1.6 4 1-1.4h2.2"/></svg></div>
+            <h3>Cardiology</h3>
+            <p>Heart health and vascular care.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+          <div class="dept-pick-card" data-value="Orthopedics">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 14a3 3 0 1 1 5-2l5 5a3 3 0 1 1-2 5l-5-5a3 3 0 0 1-3-3Z"/></svg></div>
+            <h3>Orthopedics</h3>
+            <p>Bone, joint and muscle care.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+          <div class="dept-pick-card" data-value="Radiology &amp; Imaging">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="3" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="21"/></svg></div>
+            <h3>Radiology &amp; Imaging</h3>
+            <p>Accurate diagnosis with advanced imaging.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+          <div class="dept-pick-card" data-value="Emergency Care">
+            <div class="icon-circle"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></div>
+            <h3>Emergency Care</h3>
+            <p>24/7 urgent care for life-threatening conditions.</p>
+            <span class="link-arrow">Select <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking-card">
+        <div class="booking-card-head">
+          <span class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <div>
+            <h3>Book Your Appointment</h3>
+            <p>Fill in the details below and we&rsquo;ll get back to you shortly.</p>
+          </div>
+        </div>
+
+        <div class="form-success" id="form-success">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg>
+          <span>Thank you! Your appointment request has been received. Our team will contact you shortly to confirm your visit.</span>
+        </div>
+
+        <form id="appointment-form" novalidate>
+          <div class="form-field">
+            <span class="field-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span>
+            <input type="text" name="fullName" placeholder="Full Name *" required>
+            <p class="error-msg">Please enter your full name.</p>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-field">
+              <span class="field-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg></span>
+              <input type="tel" name="phone" placeholder="Phone Number *" required>
+              <p class="error-msg">Please enter a valid phone number.</p>
+            </div>
+            <div class="form-field">
+              <span class="field-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>
+              <input type="email" name="email" placeholder="Email Address">
+              <p class="error-msg">Please enter a valid email address.</p>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <span class="field-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+            <select name="department" id="department" required>
+              <option value="">Select Department *</option>
+              <option value="General Medicine">General Medicine</option>
+              <option value="Surgery">Surgery</option>
+              <option value="Maternity &amp; Child Care">Maternity &amp; Child Care</option>
+              <option value="Pediatrics">Pediatrics</option>
+              <option value="Gynecology &amp; Obstetrics">Gynecology &amp; Obstetrics</option>
+              <option value="Cardiology">Cardiology</option>
+              <option value="Orthopedics">Orthopedics</option>
+              <option value="Radiology &amp; Imaging">Radiology &amp; Imaging</option>
+              <option value="Neurology">Neurology</option>
+              <option value="Laboratory Services">Laboratory Services</option>
+              <option value="Pharmacy">Pharmacy</option>
+              <option value="Emergency Care">Emergency Care</option>
+              <option value="Oncology">Oncology</option>
+            </select>
+            <span class="select-caret"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+            <p class="error-msg">Please select a department.</p>
+          </div>
+
+          <div class="form-field">
+            <span class="field-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M2.6 19.5c0-3.4 2.9-5.7 6.4-5.7s6.4 2.3 6.4 5.7"/><circle cx="17.3" cy="8.6" r="2.5"/></svg></span>
+            <select name="preferredDoctor">
+              <option value="">Preferred Doctor (Optional)</option>
+              <option value="Any available doctor">Any available doctor</option>
+              <option value="Dr. Amadi Nwosu">Dr. Amadi Nwosu</option>
+              <option value="Dr. Zainab Bello">Dr. Zainab Bello</option>
+              <option value="Dr. Chidi Okafor">Dr. Chidi Okafor</option>
+            </select>
+            <span class="select-caret"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </div>
+
+          <div class="form-field">
+            <span class="field-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+            <input type="date" name="preferredDate" placeholder="Preferred Date">
+            <p class="error-msg">Please choose a date from today onward.</p>
+          </div>
+
+          <div class="form-field">
+            <span class="field-icon" style="top:22px;transform:none;"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+            <textarea name="message" placeholder="Additional Message (Optional)"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-pill btn-block">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Submit Appointment
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US BAND ===== -->
+<section class="help-band" style="margin-top:8px;">
+  <div class="container">
+    <div class="why-band-inner">
+      <div class="why-copy">
+        <span class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/><path d="M8 12h2l1.2-2.6 1.6 4 1-1.4h2.2"/></svg></span>
+        <div>
+          <h3>Why Choose Amadi&rsquo;s Care?</h3>
+          <p>We are committed to providing the best healthcare experience for you and your family.</p>
+        </div>
+      </div>
+      <div class="why-points">
+        <div class="why-point"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M2.6 19.5c0-3.4 2.9-5.7 6.4-5.7s6.4 2.3 6.4 5.7"/><circle cx="17.3" cy="8.6" r="2.5"/></svg></span>Experienced<br>Medical Professionals</div>
+        <div class="why-point"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/></svg></span>Modern Facilities<br>&amp; Equipment</div>
+        <div class="why-point"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg></span>Patient-Centered<br>Care</div>
+        <div class="why-point"><span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l9-6 9 6v11"/><path d="M9 21v-7h6v7"/></svg></span>Comfortable &amp; Safe<br>Environment</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="38" height="38">
+            <circle cx="24" cy="24" r="24" fill="var(--blue)"/>
+            <path d="M24 34s-9.5-6.1-9.5-13A6.5 6.5 0 0 1 24 16a6.5 6.5 0 0 1 9.5 5c0 6.9-9.5 13-9.5 13z" fill="#fff"/>
+          </svg>
+        </span>
+        <span class="logo-text">
+          <span class="logo-title logo-title--light">Amadi&rsquo;s Care</span>
+          <span class="logo-subtitle logo-subtitle--light">General Hospital</span>
+        </span>
+      </a>
+      <p>Compassionate, high-quality and affordable healthcare for our community &mdash; today and for generations to come.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook" class="icon-btn icon-btn--dark"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8.4h2.8l.4-3.3h-3.2V8.2c0-1 .3-1.6 1.7-1.6h1.7V3.7c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.2v2.4H7.7v3.3h2.8V22h3z"/></svg></a>
+        <a href="#" aria-label="Twitter / X" class="icon-btn icon-btn--dark"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 5.1c-.7.3-1.4.5-2.2.7.8-.5 1.4-1.2 1.6-2.1-.7.4-1.6.8-2.4 1a3.8 3.8 0 0 0-6.5 3.5A10.9 10.9 0 0 1 3.6 4.2a3.8 3.8 0 0 0 1.2 5.1c-.6 0-1.2-.2-1.7-.5v.1c0 1.9 1.3 3.4 3.1 3.8-.5.1-1.1.2-1.6.1.5 1.5 1.9 2.6 3.5 2.7A7.6 7.6 0 0 1 2 17.5a10.8 10.8 0 0 0 5.8 1.7c7 0 10.8-5.8 10.8-10.8v-.5c.8-.5 1.4-1.2 1.9-1.9Z"/></svg></a>
+        <a href="#" aria-label="Instagram" class="icon-btn icon-btn--dark"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Our Services</a>
+      <a href="departments.html">Departments</a>
+      <a href="appointment.html">Appointment</a>
+    </div>
+    <div class="footer-col">
+      <h4>Departments</h4>
+      <a href="departments.html">General Medicine</a>
+      <a href="departments.html">Surgery</a>
+      <a href="departments.html">Maternity &amp; Child Care</a>
+      <a href="departments.html">Radiology &amp; Imaging</a>
+      <a href="departments.html">Pharmacy</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <p class="footer-contact">123 Wellness Avenue,<br>Lekki, Lagos</p>
+      <p class="footer-contact">+234 800 123 4567</p>
+      <p class="footer-contact">care@amadiscare.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2026 Amadi&rsquo;s Care General Hospital. All rights reserved.</p></div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
